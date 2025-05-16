@@ -6,7 +6,7 @@ import joblib
 st.set_page_config(page_title="Insurance Response Predictor", page_icon="🧠", layout="centered")
 
 # Load model
-model = joblib.load("InsuranceCustomerResponse_Logreg_Model.pkl")
+model = joblib.load("InsuranseCustomerResponcePrediction_Logreg_Model.pkl")
 
 # App title
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>🧠 Insurance Response Prediction</h1>", unsafe_allow_html=True)
